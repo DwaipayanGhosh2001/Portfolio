@@ -13,7 +13,7 @@ function HeroSection() {
                 <div data-aos="fade-down" className='flex flex-col gap-8 lg:col-span-7 place-self-center text-center md:text-left'>
                     <h1 className='text-extrabold text-5xl lg:text-6xl'>
                         <span className='text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>
-                            Hello, I'm
+                            Hello, I&apos;m
                         </span>
                         <br />
                         <div className='mt-4'> {/* Add margin-top to create space */}
