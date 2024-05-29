@@ -20,9 +20,6 @@ function MobileNav() {
                     <SheetTrigger><Menu className="" /> </SheetTrigger>
                     <SheetContent className="text-white bg-dark-1 bg-opacity-60">
                         <div className='flex flex-col gap-20'>
-                            <div>
-                                Logo
-                            </div>
                             <div className='flex-center flex-col gap-8'>
                                 {navLinks.map((item) => {
                                     return (

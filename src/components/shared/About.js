@@ -2,7 +2,7 @@
 import React from 'react'
 import { Tilt } from 'react-tilt'
 
-import { services } from '@/constants';
+import { aboutMe, services } from '@/constants';
 import Image from 'next/image';
 
 const ServiceCard = ({ title, icon }) => {
@@ -36,11 +36,9 @@ function About() {
           <h2 className='sectionHeadText'>Overview</h2>
         </div>
         <div >
-          <p className='mt-4 text-base md:text-lg text-font-1 w-full'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cumque dolorem,
-            quas dicta corporis sapiente, quod neque asperiores tenetur, qui minima sed hic perspiciatis?
-            Ut, dolorem. Quo debitis possimus ut ipsam necessitatibus, aliquid, accusamus ad aspernatur
-            ratione voluptates libero sint voluptatibus iure error, ipsum numquam molestiae reprehenderit
-            vel dolores nulla.</p>
+          <p className='mt-4 text-base md:text-lg text-font-1 w-full'>
+            {aboutMe}
+          </p>
         </div>
         <div className='mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 px-10'>
           {services.map((item, index) => (

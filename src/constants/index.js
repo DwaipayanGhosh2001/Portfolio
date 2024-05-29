@@ -62,18 +62,18 @@ export const education = [
   },
 ]
 export const workExperience = [{
-  title:"Full Stack Developer Intern",
-  date:"September 2023 - March 2024",
-  points:[
+  title: "Full Stack Developer Intern",
+  date: "September 2023 - March 2024",
+  points: [
     "Worked on real time full stack projects",
     "Developing industry level application with all validations",
     "Modeling the skeleton structure of an application"
   ]
 },
-  {
-  title:"Technical Content Writer",
-  date:"September 2021 - October 2022",
-  points:[
+{
+  title: "Technical Content Writer",
+  date: "September 2021 - October 2022",
+  points: [
     "Delivered technical blogs based on modern techs and inovations",
   ]
 }]
@@ -101,12 +101,12 @@ export const technologies = [
   {
     name: "React JS",
     icon: "/assets/tech/reactjs.png",
-    valu:80
+    valu: 80
   },
   {
     name: "Redux Toolkit",
     icon: "/assets/tech/redux.png",
-    valu:50
+    valu: 50
   },
   {
     name: "Tailwind CSS",
@@ -121,17 +121,17 @@ export const technologies = [
   {
     name: "MongoDB",
     icon: "/assets/tech/mongodb.png",
-    valu:70
+    valu: 70
   },
   {
     name: "Git",
     icon: "/assets/tech/git.png",
-    valu:60
+    valu: 60
   },
   {
     name: "Figma",
     icon: "/assets/tech/figma.png",
-    valu:70
+    valu: 70
   },
 
 ];
@@ -143,14 +143,14 @@ export const projectsData = [
     github: "https://github.com/DwaipayanGhosh2001/Vaccine-Slot-Booking--System-main",
     live: "https://vaccbook.vercel.app/",
     image: "/projects/Vaccine.jpg"
-  }, 
+  },
   {
     title: "Yoom Calls",
     desc: "This application allows you to conduct meetings seamlessly, whether it's an instant meeting or a scheduled one. You can join meetings with ease, view recordings of past meetings, and even have your personal meeting room.",
     github: "https://github.com/DwaipayanGhosh2001/Zoom_clone",
     live: "https://zoom-clone-gilt-psi.vercel.app/",
     image: "/projects/yoomcalls.jpg"
-  }, 
+  },
   {
     title: "Contact Extractor",
     desc: "This application  the go-to destination for individuals and businesses seeking exceptional blog creation services. We aspire to be the bridge between your ideas and the digital world, enabling your stories to reach a wider audience and make a lasting impact.",
@@ -159,3 +159,4 @@ export const projectsData = [
     image: "/projects/conactextractor.jpg"
   }
 ]
+export const aboutMe = "Hello, I'm Dwaipayan Ghosh! I hold a Master of Computer Applications degree from Maulana Abul Kalam Azad University of Technology. My passion for coding and development dates back to my childhood, and I have honed my skills as a self-taught developer. I am well-versed in various technologies used for modern real-world applications. I am excited to continue leveraging my skills and passion to contribute to innovative and impactful projects."
