@@ -13,7 +13,7 @@ function Projects() {
           <h2 className='sectionHeadText'>Projects</h2>
         </div>
         <div className='mt-10'>
-          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-6 px-10 md:px-2'>
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-6 px-2'>
             {projectsData.map((item, index) => (
               <div key={index} className='rounded-lg p-5 bg-dark-3 border-b-2 border-green-300 border-l-2 '>
                 <div className='flex flex-col gap-6'>

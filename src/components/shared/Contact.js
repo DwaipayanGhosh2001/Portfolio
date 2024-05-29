@@ -73,7 +73,7 @@ function Contact() {
 
             </div>
           </div>
-          <div className='w-96 mx-auto md:mx-0'>
+          <div className='w-full md:w-96 mx-auto md:mx-0'>
 
             <form className="flex flex-col" onSubmit={handleSubmit}>
               <div className="mb-6">
